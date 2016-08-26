@@ -12,5 +12,4 @@ RUN rm -fr /var/cache/apk/*
 
 WORKDIR /usr/share/nginx/html
 
-ENTRYPOINT ["npm"]
-CMD ["start"]
+CMD ["npm", "start"]
